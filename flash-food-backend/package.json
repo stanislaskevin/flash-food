@@ -1,0 +1,16 @@
+{
+  "name": "flash-food-backend",
+  "version": "1.0.0",
+  "description": "mern-stack build flash-food",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "stan_codes && worldigitech",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11"
+  }
+}

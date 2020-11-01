@@ -1,0 +1,16 @@
+.homePromotions {
+    padding: 1em 1em 0;
+}
+
+.homePromotions > h2 {
+    font-size:0.9em;
+    padding: 0 1em;
+    text-transform: uppercase;
+    font-weight:700;
+}
+
+.homePromotions_body {
+    display:flex;
+    flex-direction:row;
+    overflow-x: auto; 
+}

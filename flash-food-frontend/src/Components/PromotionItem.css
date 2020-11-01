@@ -1,0 +1,6 @@
+.promotionItem > img {
+    object-fit:cover;
+    width:12em;
+    height:70%;
+    padding:1em;
+}

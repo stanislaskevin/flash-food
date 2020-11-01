@@ -1,0 +1,34 @@
+.searchStore {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:1em;
+    border:1px solid transparent;
+    border-radius:0.5em;
+    width:70%;
+    margin:0 auto 1em;
+    background:#ffffff;
+    -webkit-box-shadow: -4px 6px 23px -6px rgba(0,0,0,0.12); 
+    box-shadow: -4px 6px 23px -6px rgba(0,0,0,0.12);
+}
+
+.searchStore_left {
+    display:flex;
+    align-items:center;
+}
+
+.searchStore_search {
+    padding-left:1em;
+}
+
+.searchStore_search > h3 {
+    font-size:0.8em;
+    color:#f31f57;
+    text-transform: uppercase;
+}
+
+.searchStore_search > p {
+    font-size:0.6em;
+    font-weight:500;
+    color:lightgray;
+}

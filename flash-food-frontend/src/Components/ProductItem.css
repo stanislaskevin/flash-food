@@ -1,0 +1,44 @@
+.productItem {
+    padding:1em;
+    display:flex;
+    margin-top:0.3em;
+}
+
+.productItem > img {
+    object-fit:contain;
+    width:5em;
+    height:100%;
+    border:1px solid lightgray;
+    border-radius: 0.5em;
+
+}
+
+.productItem_details {
+    padding:0 0.5em;
+}
+
+.productItem_details > h3 {
+    font-size:0.8em;
+    padding-bottom:0.5em;
+}
+
+.productItem_details > p {
+    font-size:0.7em;
+}
+
+.productItem_price {
+
+}
+
+.productItem_price > p {
+    font-size:0.7em;
+    font-weight:700;
+    color:#f31f57;
+}
+
+.productItem_price_button {
+    display:flex;
+    padding-top:1em;
+    color:#f31f57;
+}
+

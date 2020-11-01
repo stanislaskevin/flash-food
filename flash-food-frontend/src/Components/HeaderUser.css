@@ -1,0 +1,20 @@
+.headerUser {
+    display: flex;
+    align-items:center;
+    padding:0 1em;
+}
+
+.headerUser_details {
+    padding-left:1em;
+}
+
+.headerUser_details > h2 {
+    font-size:1em;
+    color:#fb295b;
+    text-transform: uppercase;
+}
+
+.headerUser_details > p {
+    font-size:0.6em;
+    font-weight:500;
+}

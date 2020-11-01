@@ -1,0 +1,33 @@
+.ticketApplied {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0.5em 1em 1em;
+    border:1px solid transparent;
+    border-radius:0.5em;
+    width:70%;
+    margin:0 auto 1em;
+    background:#f31f57;
+    -webkit-box-shadow: -4px 6px 23px -6px rgba(0,0,0,0.12); 
+    box-shadow: -4px 6px 23px -6px rgba(214, 7, 7, 0.322);
+}
+
+.ticketApplied_left > span {
+    font-size:8px;
+    color:#feda56;
+    font-weight:900;
+    text-transform: uppercase;
+}
+.ticketApplied_left_details {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-top:0.5em;
+}
+
+.ticketApplied_left_details > p {
+    font-size:0.7em;
+    font-weight:500;
+    color:#ffffff;
+    padding-left:1em;
+}
