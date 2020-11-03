@@ -1,6 +1,7 @@
 import React from 'react'
 import './ProductItem.css'
 import AddIcon from '@material-ui/icons/Add';
+import { Link } from 'react-router-dom'
 
 function ProductItem({title, url, description, pricez}) {
     return (
@@ -12,9 +13,9 @@ function ProductItem({title, url, description, pricez}) {
             </div>
             <div className="productItem_price">
                 <p>{pricez}</p>
-                <div className="productItem_price_button">
+                <Link to="/productdetail" className="productItem_price_button">
                     <AddIcon style={{fontSize:1+"em", margin:"auto"}}/>
-                </div>
+                </Link>
             </div>          
         </div>
     )
