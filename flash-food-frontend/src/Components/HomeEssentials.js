@@ -20,15 +20,16 @@ function HomeEssentials() {
     return (
         <div className="homeEssentials">
             <h2>The essentials</h2>
-            {product.map(({ title, description, pricez, url, id}) => (
+            {product.map(({ title, description, pricez, url, _id}) => (
                 <ProductItem 
+                    _id={_id}
                     title={title}
                     description={description}
                     pricez={pricez}
                     url={url}
                 />
             ))}
-            <button><AddBoxIcon /></button>
+            <button ><AddBoxIcon /></button>
         </div>
     )
 }

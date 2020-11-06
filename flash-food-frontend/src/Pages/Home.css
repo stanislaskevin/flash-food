@@ -1,3 +1,40 @@
+.home_promotions {
+    padding: 1em 1em 0;
+}
+
+.home_promotions > h2 {
+    font-size:0.9em;
+    padding: 0 1em;
+    text-transform: uppercase;
+    font-weight:700;
+}
+
+.home_promotions_body {
+    display:flex;
+    flex-direction:row;
+    overflow-x: auto; 
+}
+
+.home_essentials {
+    padding:1em;
+}
+
+.home_essentials > h2 {
+    font-size:0.9em;
+    text-transform:uppercase;
+    padding: 0 1em;
+}
+
+.home_essentials > button {
+    margin:0.5em auto 1em;
+    display:flex;
+    border:none;
+    text-transform: uppercase;
+    color:#f31f57;
+    font-size:0.8em;
+    font-weight:600;
+    background:#ffffff;   
+}
 
 @media (min-width:800px) {
 

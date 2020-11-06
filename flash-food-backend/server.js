@@ -111,6 +111,16 @@ mongoose.connect(connection_url, {
         })
     })
 
+    app.get('/v3/product/:_id', (req, res) => {
+        Product.findById(req.params._id, (err, data) => {
+            if(err) {
+                res.status(500).send(err)
+            } else {
+                res.status(200).send(data)
+            }
+        })
+    })
+
     app.post('/v2/product', (req, res) => {
         const dbProduct = req.body
 
