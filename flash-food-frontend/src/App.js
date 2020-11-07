@@ -3,6 +3,7 @@ import './App.css';
 import Home from './Pages/Home'
 import Checkout from './Pages/Checkout'
 import ProductDetail from './Pages/ProductDetail'
+import Reward from './Pages/Reward'
 import axios from './axios'
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 
@@ -22,6 +23,9 @@ function App() {
     <div className="app">
       <Router>
         <Switch >
+          <Route path="/reward">
+            <Reward />
+          </Route>
           <Route path="/checkout">
               <Checkout />
           </Route>
