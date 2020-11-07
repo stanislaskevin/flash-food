@@ -37,7 +37,12 @@ function App() {
           </Route>
         </Switch>
       </Router>
-        <h1>Veuillez passer votre navigateur en version Mobil ou Accéder directement depuis votre Mobil ou votre Tablette</h1>
+      <div className="app_contain">
+        <h1>Réduiser la fenêtre de votre navigateur</h1>
+        <h2>
+            Allez, ne soyez pas timide. Réduiser la fenêtre de votre navigateur. Mais si vous souhaitez vraiment visiter ce site dans cette taille d'affichage, utilisez simplement votre appareil mobile.
+        </h2>
+      </div>
     </div>
   );
 }

@@ -10,21 +10,11 @@ function CheckoutProduct() {
     const removeFromBasket = () => {
         dispatch({
             type: 'REMOVE_BASKET',
-            item: {  
-                
-            }
+            id: basket._id
         })
     }
 
     return (
-        <div className="checkoutProduct">
-            <div className="checkoutProduct_title">
-                <h2>Order Summary</h2>
-                <div className="checkoutProduct_title_more">
-                    <AddIcon style={{fontSize:1+"em", color:"#f31f57"}}/>
-                    <p>Add more</p>
-                </div>
-            </div>
             <div className="checkoutProduct_product">
                 {basket.map(item => (
                     <>
@@ -39,7 +29,7 @@ function CheckoutProduct() {
                     </div>
                     <div className="checkoutProduct_productRight">
                         <div className="checkoutProduct_productRight_number">
-                            <RemoveIcon style={{fontSize:1+"em", color:"lightgray"}}/>
+                            <RemoveIcon onClick={removeFromBasket} style={{fontSize:1+"em", color:"lightgray"}}/>
                             <p>1</p>
                             <AddIcon style={{fontSize:1+"em", color:"lightgray"}}/>
                         </div>
@@ -49,7 +39,6 @@ function CheckoutProduct() {
                 </>
                 ))}
             </div>
-        </div>
     )
 }
 
